@@ -1,5 +1,6 @@
 import React from 'react'
 import { SignIn } from '@clerk/nextjs';
+//import { SignIn } from 'next-auth/react';
 
 const SignInPage = () => {
   return (
