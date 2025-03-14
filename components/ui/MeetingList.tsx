@@ -31,9 +31,9 @@ const MeetingList = () => {
                 className='bg-purple-1'
             />
             <HomeCard 
-                img='/icons/add-meeting.svg'
-                title='Upcoming Meetings'
-                description='View Upcoming Meetings'
+                img='/icons/join-meeting.svg'
+                title='Join Meeting'
+                description='Join Via Meeting Invitation Link'
                 handleClick={() => setMeetingState('isInstantMeeting')}
                 className='bg-yellow-1'
             />
