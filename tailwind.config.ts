@@ -60,7 +60,8 @@ export default {
 			sky: {
 				1: '#C9DDFF',
 				2: '#ECF0FF',
-				3: '#F5FCFF'
+				3: '#F5FCFF',
+				4: '#0E78F9'
 			},
 			orange: {
 				1: '#FF742E'
