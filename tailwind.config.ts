@@ -56,6 +56,10 @@ export default {
 			},
 			blue: {
 				1: '#0E78F9'
+			},
+			sky: {
+				1: '#C9DDFF',
+				2: '#F5D9FF'
 			}
   		},
 		backgroundImage: {
