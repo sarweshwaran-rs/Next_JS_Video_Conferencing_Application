@@ -1,3 +1,4 @@
+"use client"
 // import { StreamCall, StreamVideo, StreamVideoClient, User,} from "@stream-io/video-react-sdk";
 import { tokenProvider } from "@/actions/stream.actions";
 import Loader from "@/components/Loader";
