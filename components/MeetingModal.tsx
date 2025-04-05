@@ -2,7 +2,7 @@
 import { ReactNode } from 'react'
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
-import { Dialog, DialogContent } from "@/components/ui/dialog"
+import { Dialog, DialogContent,DialogTitle } from "@/components/ui/dialog"
 import { Button } from './ui/button';
 
 interface MeetingModalProps {
@@ -20,6 +20,7 @@ const MeetingModal = ({ isOpen, onClose, title, className, children, handleClick
     return (
         <Dialog open={isOpen} onOpenChange={onClose}>
             {/* <DialogTrigger>Open</DialogTrigger> */}
+            <DialogTitle></DialogTitle>
             <DialogContent className="flex w-full max-w-[520px] flex-col gap-t border-none bg-dark-1 px-6 py-9 text-white">
                 <div className="flex flex-col gap-6">
                     {image && (
