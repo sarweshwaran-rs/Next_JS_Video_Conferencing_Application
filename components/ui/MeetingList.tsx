@@ -98,6 +98,15 @@ const MeetingList = () => {
                 buttonText="Start Meeting"
                 handleClick={createMeeting}
             />
+
+            <MeetingModal
+                isOpen={meetingState === 'isScheculeMeeting'}
+                onClose={() => setMeetingState(undefined)}
+                title="Schedule an Meeting"
+                className="text-center"
+                buttonText="Schedule Meeting"
+                handleClick={() => setMeetingState(undefined)} 
+            />
         </section>
     )
 }
