@@ -20,7 +20,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SPEAK RRT",
   description: "Video Conferencing Platform",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
 };
+
 
 export default function RootLayout({
   children,
