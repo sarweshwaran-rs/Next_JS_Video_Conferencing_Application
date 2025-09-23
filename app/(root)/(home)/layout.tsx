@@ -1,6 +1,15 @@
 import React, { ReactNode } from 'react'
 import Navbar from '@/components/ui/Navbar'
 import Sidebar from '@/components/ui/Sidebar'
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "SPEAK RRT",
+  description: "Video Conferencing Platform",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
     return (

@@ -1,5 +1,15 @@
 import React, { Children, ReactNode } from 'react'
 import StreamVideoProvider from '@/providers/StreamClientProvider'
+import { Metadata } from 'next';
+
+
+export const metadata: Metadata = {
+  title: "SPEAK RRT",
+  description: "Video Conferencing Platform",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
