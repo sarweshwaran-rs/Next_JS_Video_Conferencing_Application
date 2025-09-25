@@ -93,7 +93,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
                             <MeetingCard
                                 key={call.id}
                                 icon={type === 'ended' ? '/icons/previous.svg' : '/icons/upcoming.svg'}
-                                title={call.state.custom.description?.substring(0, 26) || 'No description'}
+                                title={call.state.custom.description?.substring(0, 26) || 'Personal Meeting'}
                                 date={call.state.startsAt?.toLocaleString()}
                                 isPreviousMeeting={type === 'ended'}
                                 buttonText={type === 'ended' ? 'Details' : 'Start'}
